@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0284C7;
+    margin: 10px, auto;
+    width: 90%;
+    min-width: 350px;
+    gap: 10px;
+}
+
+.team-container {
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.score {
+    padding: 20px;
+    font-size: 90px;
+    background-color: #075985;
+    border-radius: 10px;
+}
+
+#btn {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#new-game {
+    display: flex;
+    justify-content: center;
+    padding: 7px 10px 5px 8px;
+    margin: 0
+    ;
+}
